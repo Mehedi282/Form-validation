@@ -1,0 +1,41 @@
+div{
+	border: 5px dotted black;
+	width:35%;
+	margin:auto;
+	background:gray;
+}
+label{
+	display: inline-block;
+	width:100px;
+	text-align:center;
+	padding:7px;
+	color:white;
+
+}
+input{
+	background-color:black;
+	width:60%;
+	height:30px;
+	color:#ddeeee;
+}
+button{
+	padding:5px;
+	margin-top:15px;
+    margin-left: 180px;
+	padding:5px;
+	width:30%;
+	
+}
+button:hover{
+	background-color:black;
+	color:#FF00ee;
+}
+h5{
+	text-align:center;
+	color:red;
+
+}
+#tt{
+	border:0px;
+	width:60%;
+}
