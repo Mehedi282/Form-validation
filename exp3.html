@@ -1,0 +1,36 @@
+<!DOCTYE html>
+<html>
+	<head>
+		<title>Form Validation</title>
+		<link rel="stylesheet" href="exp3.css">
+	</head>
+	<body>
+		<form action="welcome.html">
+	    <div>
+	    <label>User Name</label>
+		    <input type="text" id="account" placeholder="Enter your account"></br>
+		<label>password</label>
+		    <input type="password" id="pass" placeholder="Enter your password"></br>
+		<label>Region</label>  
+		  <select id="sec">
+			<option value=""> select a region</option>
+			<option>Beijing</option>
+			<option>Shanghai</option>
+			<option>Newyork</option>
+			<option>Tokiyo</option>
+			<option>Dhaka</option>
+		  </select><br />
+		<label>Phone</label> +086
+			<input type="tel" id="tel" placeholder="Input your phone bumber"/><br />
+        <label>Email</label>  
+            <input type="email" id="eml" placeholder="Input your email"/><br />
+		<div id="tt"><h5 id="Error_msg"></h5>	</div>
+        <button onclick=" return validation()">Submit now</button>
+        <script src="exp3.js"></script>
+		</div>
+	
+	 
+		</form>
+	 
+	</body>
+</html>
